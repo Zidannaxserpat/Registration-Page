@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Registration Form</title>
+    <link rel="shortcut icon" href="House.jpg">
+</head>
+<link rel="stylesheet" href="style.css">
+<header>
+    <h1 style="font-variant: initial;">Sign Up</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <form action="register.php" method="post">
+            <fieldset style="padding: 10px; border-radius: 12px;">
+            <legend><h1>Registration</h1></legend>
+            <label for="school_name">School Name:</label>
+            <input type="text" id="school_name" name="school_name" placeholder="Type Something" required>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Type Something" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone" placeholder="Type Something" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Type Something" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Type Something" required>
+            
+            <input type="submit" name="submit" value="Register">
+            </fieldset>
+        </form>
+    </div>
+</body>
+<!-- <link rel="stylesheet" href="porch.css">
+<body>
+    <div class="porch">
+        <section id="porch">
+            <div class="porch-content">
+                <h1>Welcome to Our Porch</h1>
+                <p>Relax and enjoy the view from our beautiful porch. Whether it's a sunny morning or a starry night, our porch is the perfect place to unwind.</p>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </section>
+    </div>
+</body> -->
+<footer style="text-align: center;">
+    <strong>
+    &copy;2023 ZDev, All right reserved.
+    </strong>
+</footer>
+</html>
